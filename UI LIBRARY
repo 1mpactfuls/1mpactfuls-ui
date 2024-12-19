@@ -209,7 +209,7 @@ function Lib.Window(Title)
 
 		TabSwitcher.Name = "TabSwitcher"
 		TabSwitcher.Parent = TabNavigator
-		TabSwitcher.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		TabSwitcher.BackgroundColor3 = Color3.fromRGB(1, 0, 0)
 		TabSwitcher.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TabSwitcher.BorderSizePixel = 0
 		TabSwitcher.Position = UDim2.new(0, 0, 0.101818189, 0)
@@ -297,7 +297,7 @@ function Lib.Window(Title)
 			ButtonFrame.Name = "ButtonFrame"
 			ButtonFrame.Parent = TabContent
 			ButtonFrame.Active = true
-			Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			Button.BackgroundColor3 = Color3.fromRGB(1, 0, 0)
 			ButtonFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonFrame.BorderSizePixel = 0
 			ButtonFrame.ClipsDescendants = true
