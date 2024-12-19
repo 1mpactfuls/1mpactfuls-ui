@@ -83,7 +83,7 @@ function Lib.Window(Title)
 
 	TabFrame.Name = "TabFrame"
 	TabFrame.Parent = Main
-	TabFrame.BackgroundColor3 = Color3.fromRGB(18, 15, 24)
+	TabFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.Position = UDim2.new(0.0198237877, 0, 0.153153151, 0)
@@ -96,7 +96,7 @@ function Lib.Window(Title)
 	TabNavigator.Name = "TabNavigator"
 	TabNavigator.Parent = TabFrame
 	TabNavigator.Active = true
-	TabNavigator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TabNavigator.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TabNavigator.BackgroundTransparency = 1.000
 	TabNavigator.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabNavigator.BorderSizePixel = 0
@@ -151,7 +151,7 @@ function Lib.Window(Title)
 	
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(18, 15, 24)
+	TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TopBar.BorderSizePixel = 0
 	TopBar.Size = UDim2.new(0, 454, 0, 45)
@@ -180,7 +180,7 @@ function Lib.Window(Title)
 
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
-	Extension.BackgroundColor3 = Color3.fromRGB(18, 15, 24)
+	Extension.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Extension.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0.00652175443, -3, 0.994062245, 0)
@@ -209,7 +209,7 @@ function Lib.Window(Title)
 
 		TabSwitcher.Name = "TabSwitcher"
 		TabSwitcher.Parent = TabNavigator
-		TabSwitcher.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
+		TabSwitcher.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		TabSwitcher.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TabSwitcher.BorderSizePixel = 0
 		TabSwitcher.Position = UDim2.new(0, 0, 0.101818189, 0)
@@ -311,7 +311,7 @@ function Lib.Window(Title)
 
 			ButtonTrigger.Name = "ButtonTrigger"
 			ButtonTrigger.Parent = ButtonFrame
-			ButtonTrigger.BackgroundColor3 = Color3.fromRGB(53, 50, 74)
+			ButtonTrigger.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonTrigger.BackgroundTransparency = 1.000
 			ButtonTrigger.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			ButtonTrigger.BorderSizePixel = 0
