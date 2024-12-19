@@ -96,7 +96,7 @@ function Lib.Window(Title)
 	TabNavigator.Name = "TabNavigator"
 	TabNavigator.Parent = TabFrame
 	TabNavigator.Active = true
-	TabNavigator.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	TabNavigator.BackgroundColor3 = Color3.fromRGB(1, 0, 0)
 	TabNavigator.BackgroundTransparency = 1.000
 	TabNavigator.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabNavigator.BorderSizePixel = 0
@@ -151,7 +151,7 @@ function Lib.Window(Title)
 	
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	TopBar.BackgroundColor3 = Color3.fromRGB(1, 0, 0)
 	TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TopBar.BorderSizePixel = 0
 	TopBar.Size = UDim2.new(0, 454, 0, 45)
@@ -180,7 +180,7 @@ function Lib.Window(Title)
 
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
-	Extension.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Extension.BackgroundColor3 = Color3.fromRGB(1, 0, 0)
 	Extension.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0.00652175443, -3, 0.994062245, 0)
